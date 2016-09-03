@@ -2,7 +2,6 @@ import urllib2
 from bs4 import BeautifulSoup
 import json
 
-class FoodQuery()
 with open('secure.txt', 'r') as f:
     api_key = f.readline()
 
